@@ -1,0 +1,38 @@
+{
+  "name": "lighthouse-plugin-social-sharing",
+  "version": "0.0.1",
+  "main": "src/plugin.js",
+  "files": [
+    "src"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "description": "Lighthouse Plugin for an audit on Social Sharing meta tags",
+  "dependencies": {
+    "lighthouse-plugin-social-sharing": "^0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Q42/lighthouse-plugin-social-sharing.git"
+  },
+  "keywords": [
+    "lighthouse",
+    "lighthouse-plugin"
+  ],
+  "author": "Roelf-Jan de Vries",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Q42/lighthouse-plugin-social-sharing/issues"
+  },
+  "homepage": "https://github.com/Q42/lighthouse-plugin-social-sharing#readme",
+  "scripts": {
+    "lighthouse-run": "lighthouse --plugins=lighthouse-plugin-social-sharing --view"
+  },
+  "peerDependencies": {
+    "lighthouse": "^5.0.0"
+  },
+  "devDependencies": {
+    "lighthouse": "^5.6.0"
+  }
+}
