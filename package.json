@@ -9,9 +9,6 @@
     "node": ">=10"
   },
   "description": "Lighthouse Plugin for an audit on Social Sharing meta tags",
-  "dependencies": {
-    "lighthouse-plugin-social-sharing": "^0.0.1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Q42/lighthouse-plugin-social-sharing.git"
@@ -31,8 +28,5 @@
   },
   "peerDependencies": {
     "lighthouse": "^5.0.0"
-  },
-  "devDependencies": {
-    "lighthouse": "^5.6.0"
   }
 }
